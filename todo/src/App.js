@@ -1,5 +1,6 @@
 import {Fragment} from 'react';
 import Header from './components/Layout/Header';
+import NewTask from './components/List/NewTask';
 import Task from './components/List/Task';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       <main>
         <Task/>
+        <NewTask/>
       </main>
     </Fragment>
   );
