@@ -1,0 +1,30 @@
+.newtask {
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    max-width: 56rem;
+    width: 80%;
+    margin: 3rem auto;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: rgb(231, 207, 138);
+  }
+
+  .newtask button {
+    font: inherit;
+    cursor: pointer;
+    background-color: rgb(8, 114, 120);
+    border: 1px rgb(7, 92, 97);
+    color: white;
+    padding: 0.4rem 1rem;
+    margin: 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .newtask button:hover,
+  .newtask button:active {
+    background-color: rgb(18, 164, 172);
+    border: 1px rgb(15, 138, 145);
+  }
